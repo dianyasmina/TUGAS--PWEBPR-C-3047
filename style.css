@@ -1,0 +1,535 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+body {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1280px) {
+
+  .profession_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  
+  .navbar {
+    list-style: none;
+    background-color: #efeded;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    
+  }
+
+  .navbar li {
+    text-decoration: none;
+    margin: 0 20px;
+    list-style: none;
+    color: black;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .profession {
+    text-align: center;
+  }
+
+  .profession_container {
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+  }
+
+  .left_container {
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+    
+  }
+
+  .top-left-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 289px;
+    height: 299px;
+    background-color: #D5FFDD;
+    border-radius: 20px;
+
+  }   
+
+  .direct-first-profession {
+    width: 289px;
+    background-color: red;
+  }
+
+  .indirect-first-profession {
+    
+  }
+
+  .btn3 {
+    position: relative;
+    top: -180px;
+  }
+
+
+  .button-left-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kalimat_fotografer {
+    padding: 0px;
+  }
+
+  .left_container {
+    width: 289px;
+    height: 314px;
+  }
+
+
+  .right_container {
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+  }
+
+  .container-top {
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+    height: auto;
+  }
+
+  .box {
+    width: 289px;
+  }
+
+  .flex-direct {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+
+}
+
+.navbar {
+  width: 100vw;
+  background-color: #efeded;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.navbar li {
+  margin: 0 20px;
+  list-style: none;
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.profession {
+  text-align: center;
+}
+
+.profession_container {
+  display: flex;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  gap: 27px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .soldier_container {
+  background-color: #fff4dc;
+  width: 490px;
+  height: 230px;
+  z-index: 0;
+} */
+
+/* .soldier_background {
+  position: absolute;
+  z-index: 1;
+  margin-top: 50px;
+  width: 490px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: #d5ffdd;
+} */
+
+.img_soldier {
+  /* position: absolute; */
+  width: 230px;
+  height: 230px;
+  margin-top: -48px;
+}
+
+.kata_tentara {
+  font-weight: 500;
+  font-size: 32px;
+
+}
+
+.kalimat_tentara {
+  z-index: 2;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+
+
+.indirect-first-profession button {
+  /* z-index: 3; */
+  /* position: absolute; */
+  /* margin-top: 174px;
+  margin-left: 216px; */
+  background-color: #399349; /* Warna latar belakang hijau */
+  color: white; /* Warna teks putih */
+  border: none; /* Hapus border */
+  width: 240px;
+  height: 37px; /* Ruang di dalam tombol */
+  border-radius: 20px;
+  font-size: 20px; /* Sudut bulat 20px */
+  cursor: pointer; /* Ubah kursor menjadi tanda tangan saat mengarahkan mouse */
+}
+.farmer_background {
+  background-color: #6e551e;
+  width: 235px;
+  height: 180px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+}
+
+.img_farmer {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.img_pramugrari {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.left_countainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.kalimat_fotografer {
+  padding:  0px 20px;
+}
+
+.img_photografer {
+  
+}
+
+.img_Pembalap{
+  width: 120px;
+  height: 120px;
+}
+
+.img_ilmuan{
+  position: absolute;
+  z-index: 1;
+
+}
+
+
+
+.a_button {
+  margin-top: 47px;
+  /* margin-left: 132px; */
+  width: 149px;
+  height: 22px;
+  border-radius: 10px;
+  background-color: #d8d6c1;
+  position: absolute;
+  /* z-index: 3; */
+  color: white;
+  border: none;
+}
+
+.b_button{
+  width: 100px;
+  height: 55px;
+  border-radius: 10px;
+  color: white;
+  background-color: #D8D6C1;
+  font-size: 15px;
+  outline: none;
+  border:none;
+  
+}
+.flex-direct{
+  padding: 0px 16px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.flex-direct-inbox{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.left_container {
+  display: flex;
+  flex-direction: column;
+  width: 503px;
+  height: 100%;
+  gap: 27px;
+  
+}
+
+.top-left-box{
+  display:flex;
+  flex-direction: row;
+  background-color: #D5FFDD;
+  border-radius: 20px;
+  width: 490px;
+  height: 180px;
+  
+}
+
+.buttom-left-box{
+  display:flex;
+  flex-direction:row;
+  gap:27px;
+
+}
+
+.buttom-direct-column-left{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  gap: 48px;
+}
+
+/* .left-flex-box{
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .first_profession{
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+} */
+
+.direct-first-profession {
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.indirect-first-profession {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+ .second_profession{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 235px;
+  height: 180px;
+  background-color: #FFF4DC;
+  border-radius:20px;
+  margin-bottom: 32px;
+}
+
+.third_profession{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 235px;
+  height: 180px;
+  background-color: #FFCED7;
+  border-radius:20px;
+ }
+
+.btn1  {
+  position: relative;
+  width: 173px;
+  height: 37px;
+  background-color: #E29A00;
+  margin-left: 31px;
+  top: -50px;
+  border-radius: 20px;
+  outline: none;
+  border:none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn2  {
+  position: relative;
+  width: 173px;
+  height: 37px;
+  background-color: #FF5573;
+  margin-left: 31px;
+  top: -50px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border:none;
+}
+
+.btn3{
+  width: 173px;
+  height: 37px;
+  background-color: #3279AF;
+  margin-left: 0px;
+  margin-top:px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border:none;
+}
+
+
+.fourth_profession {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 231px;
+  height: 392px;
+  background-color:#E2F2FF;
+  border-radius:20px;
+}
+
+.right_container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 503px;
+  height: 100%;
+  gap: 27px;
+}
+
+.right_container .container-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 392px;
+  background-color: #efeded;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+.container-top .box {
+  width: 423px;
+  height: 96px;
+  margin: 9px 0px;
+  background-color: white;
+  border-radius: 20px;
+  outline: 1px solid #d8d6c1;
+  padding: 20px 0px;
+}
+
+
+.right_container .container-bottom {
+  width: 500px;
+  height: 181px;
+  background-color: #efeded;
+  border-radius: 20px;
+
+}
+
+.direct-row-right {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-left-box {
+  display: flex;
+
+}
+
+.button-direct-column-left {
+  margin-right: 26px;
+}
+
+.box1 {
+  width: 230px;
+  height: 120px;
+}
+
+.box2 {
+  width: 230px;
+  height: 120px;
+}
+
+
+@media (max-width:425px) {
+
+  
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
